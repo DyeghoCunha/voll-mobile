@@ -2,6 +2,8 @@ import { VStack, Image, Text, Box, FormControl, Input, Button, Link, } from "nat
 import { TouchableOpacity } from "react-native";
 import Logo from "./assets/Logo.png"
 import { Titulo } from "./componentes/Titulo";
+import { EntradaTexto } from "./componentes/EntradaTexto";
+import { Botao } from "./componentes/Botao";
 
 export default function Login() {
 
@@ -10,39 +12,16 @@ export default function Login() {
       <Image source={Logo} alt="Logo Voll" />
 
       <Titulo> Faça o Login em sua conta </Titulo>
-      
+
       <Box>
 
-        <FormControl mt={3}>
-          <FormControl.Label>Email</FormControl.Label>
-          <Input type="text" placeholder="Insira seu endereço de email"
-            size="lg"
-            w="100%"
-            borderRadius="lg"
-            bgColor="gray.100"
-            shadow={3}
-          />
-        </FormControl>
-        <FormControl mt={3}>
-          <FormControl.Label>Senha</FormControl.Label>
-          <Input type="password" placeholder="Insira sua Senha"
-            size="lg"
-            w="100%"
-            borderRadius="lg"
-            bgColor="gray.100"
-            shadow={3}
-          />
-        </FormControl>
+        <EntradaTexto type="text" titulo="Email" placeholder="Escreva seu endereço de Email" />
+
+        <EntradaTexto placeholder="Escreva sua senha" type="password" titulo="Senha" />
       </Box>
 
-      <Button w="100%"
-        bg="blue.800"
-        mt={10}
-        borderRadius="lg"
-      >
+      <Botao>Entrar</Botao>
 
-        Entrar
-      </Button>
       <Link mt={2} href="https://www.alura.com.br">
         Esqueceu sua senha?
       </Link>
@@ -52,10 +31,13 @@ export default function Login() {
         flexDirection="row"
         justifyContent="center"
         mt={8}>
+
         <Text>Ainda não tem Cadastro?</Text>
+
         <TouchableOpacity>
           <Text color="blue.500">Faça seu cadastro</Text>
         </TouchableOpacity>
+
       </Box>
     </VStack>
   );
