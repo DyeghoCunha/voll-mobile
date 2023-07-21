@@ -23,7 +23,7 @@ Benefícios desta formação:
 | -------------  | --- |
 | :sparkles: Nome        | **Voll-Mobile**
 | :label: Tecnologias |   <img src="https://img.shields.io/badge/reactnative-5CE1E6?style=for-the-badge&logo=react&logoColor=white"><img src="https://img.shields.io/badge/typeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"><img src="https://img.shields.io/badge/firebase-FEC927?style=for-the-badge&logo=firebase&logoColor=white"><img src="https://img.shields.io/badge/Expo-4630EB?style=for-the-badge&logo=expo&logoColor=white">
-| 🎇: Bibliotecas | [Vanilla-Tilt](https://cdnjs.com/libraries/vanilla-tilt),[EXPO](https://expo.dev/)[Native-Base](https://nativebase.io/),
+| 🎇: Bibliotecas | [Vanilla-Tilt](https://cdnjs.com/libraries/vanilla-tilt), [EXPO](https://expo.dev/), [Native-Base](https://nativebase.io/),
 | :rocket: URL         | [Projeto]()
 <!-- | :fire: Desafio     | [Conheça o Challenge Alura] -->
 <!-- | :laughing: Upgrades que fiz     | **Foi alterado todo o conceito da proposta, mantendo os desafios do Challange...fiz igual, mas diferente** -->
