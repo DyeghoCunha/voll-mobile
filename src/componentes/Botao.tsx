@@ -16,7 +16,7 @@ export function Botao({ children, ...rest }: BotaoProps) {
       borderRadius="lg"
       {...rest}
     >
-      Entrar
+   {children} 
     </Button>
 
   )

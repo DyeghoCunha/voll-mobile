@@ -6,6 +6,7 @@
   
 Formação com a junção de React e React Native para aprender a lidar com mais de uma plataforma no desenvolvimento de um produto tanto mobile quanto desktop, diversificando o conhecimento em React com Typescript.
 
+ <div align="start">
 Benefícios desta formação:
 
 * Dominar as principais bibliotecas e frameworks utilizados no mercado, como React, React Native, TypeScript, Native-base, MUI;
@@ -14,14 +15,9 @@ Benefícios desta formação:
 * Implementar rotas privadas e navegação eficiente com o React Router Dom;
 * Criar gráficos atraentes com a biblioteca Recharts.
 * Criar aplicações mobile e web de alta qualidade e desempenho.
-
+ </div>
 
 ## O que eu fiz
-
-
-
-
-
 
 | :placard: Vitrine.Dev |  [Minha Vitrine Dev](https://cursos.alura.com.br/vitrinedev/dyeghocunha)   |
 | -------------  | --- |
@@ -34,20 +30,18 @@ Benefícios desta formação:
   
 </div>
 
-# 💪 Sobre o Challenge da Alura
+# 💪 Sobre o Professor
 
-Esse é um desafio proposto por Alura maior escola de tecnologia do Brasil, onde recebemos um layout no figma completo e temos o desafio de fazer esse site por nossa conta em **4 semanas** como tempo proposto.
+<div align="center">
+<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/public/professor.png?raw=true" alt="professor">
+</div>
 
-Com incentivo de usarmos a comunidade do Discord como apoio são esses nossos colegas do Desafio. *Mas é uma comundiade exclusiva para alunos por isso não posso deixar o link!*
+| :placard: Professor|  [André Oliveira Cunha](https://andreoliveiracunha.com.br/)   |
+| -------------  | --- |
+| :label:  | [LinkedIn](https://www.linkedin.com/in/andr%C3%A9-oliveira-cunha-b26b3a156/)|
+| :label:  | [GitHub](https://github.com/andreocunha)|
 
 
-Também temos nossos instrutores que estão nos desafiando e auxiliando durante esse período que organizam cursos e conteudos para cada semana tanto na plataforma da alura quanto no trello.
-
-<img src="https://github.com/DyeghoCunha/what_the_fox/blob/master/public/desafiantes2.png?raw=true" alt="banner dos instrutores">
-
-Recebemos na plataforma do **Trello** um guia para semana com tarefas para serem feitas onde podemos visualizar melhor cada etapa desse Desafio e conferir nosso progresso! 
-
-<img src="https://github.com/DyeghoCunha/what_the_fox/blob/master/public/trello.png?raw=true" alt="banner do trello">
 
 ## Objetivo
 
@@ -61,6 +55,7 @@ Ao final desse desafio teremos esses conteudos prontos:
 - Uma seção para divulgar as facilidades que a loja proporciona para realizar as compras;
 - Uma seção para cadastrar na newsletter e receber novidades;
 - Um rodapé com informação do site.
+
 
 # 🎨 Projeto no Figma
 Acesse esse projeto aqui [Projeto](https://www.figma.com/file/61CRNXlUmooMttGVa0GvML/React-fullstack---Voll.med?node-id=444%3A5625&mode=dev)
@@ -85,8 +80,8 @@ Você também aprenderá a integrar seu aplicativo mobile com uma API externa ut
 ## Curso - React Native: Construindo um App com Native-base 
 
 - :white_check_mark: <!-- :construction: --> Aula 1 | Instalando o expo e o TypeScript 
-- <!-- :white_check_mark: --> :construction: Aula 2 | Criando a tela de login
-- <!-- :white_check_mark: --> :construction: Aula 3 | Criando tela de cadastro
+-  :white_check_mark:  <!-- :construction: --> Aula 2 | Criando a tela de login
+-  :white_check_mark: <!-- :construction: --> Aula 3 | Criando tela de cadastro
 - <!-- :white_check_mark: --> :construction: Aula 4 | Navegação entre telas
 - <!-- :white_check_mark: --> :construction: Aula 5 | Criando telas de home e perfil
 
@@ -146,10 +141,18 @@ Dentro do corpo da função, há o retorno do componente Texto , com algumas pro
 
 E o que me chamou a atenção foi o spread operator {...rest} para repassar quaisquer outras propriedades personalizadas que possam ser fornecidas ao componente Titulo. Isso permite que você passe propriedades adicionais ao Texto se necessário.
 
+Ja na quarta aula foi incluído o ScrollView no lugar do VStack.
+
+O VStack (Vertical Stack) é um componente do NativeBase que organiza seus filhos verticalmente em uma pilha. Ele é semelhante ao conceito de flex container com a direção de fluxo definida como "column" (flexDirection: "column") em React Native padrão. O VStack é usado para agrupar elementos e controlar sua disposição vertical no layout.
 
 
+O ScrollView é um componente do React Native que permite rolar o conteúdo além da tela visível. Ele é especialmente útil quando o conteúdo excede o tamanho da tela e você deseja permitir que o usuário role para ver o restante do conteúdo. No NativeBase, o ScrollView foi estilizado e aprimorado para ter uma experiência de rolagem mais suave e outras características adicionais.
 
+Para testar a necessidade do ScrollView foi multiplicado várias vezes o campo e-mail
 
+<div align="center">
+<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/public/figma4.png?raw=true" alt="projeto no Figma">
+</div>
 
 
 
