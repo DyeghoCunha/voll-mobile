@@ -209,6 +209,11 @@ A navegação em pilha (Stack navigation) é um padrão comum de navegação uti
 
 A ideia principal da navegação em pilha é manter um histórico de telas empilhadas, onde cada tela adicionada à pilha fica no topo e é exibida ao usuário. Quando você navega para uma nova tela, ela é empilhada no topo da pilha, e você pode voltar à tela anterior removendo-a da pilha.
 
+Também esta sendo utilizado o ButtonTab Navigation (também conhecido como Tab Navigation) que é um padrão de navegação amplamente utilizado em aplicativos móveis para organizar e alternar entre diferentes seções do aplicativo. Essa forma de navegação apresenta uma barra de guias (tabs) na parte inferior ou superior da tela, permitindo ao usuário alternar entre as diferentes telas ou seções do aplicativo com apenas um toque.
+
+
+![Gif do ButtonTab](https://reactnavigation.org/assets/navigators/tabs/material-bottom-tabs.gif)
+
 
 
 

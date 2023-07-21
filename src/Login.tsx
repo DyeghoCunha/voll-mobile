@@ -20,7 +20,7 @@ export default function Login({ navigation }) {
         <EntradaTexto placeholder="Escreva sua senha" type="password" titulo="Senha" />
       </Box>
 
-      <Botao>Entrar</Botao>
+      <Botao onPress={()=> navigation.navigate("Tabs")}>Entrar</Botao>
 
       <Link mt={2} href="https://www.alura.com.br">
         Esqueceu sua senha?
