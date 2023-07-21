@@ -23,7 +23,7 @@ Benefícios desta formação:
 | -------------  | --- |
 | :sparkles: Nome        | **Voll-Mobile**
 | :label: Tecnologias |   <img src="https://img.shields.io/badge/reactnative-5CE1E6?style=for-the-badge&logo=react&logoColor=white"><img src="https://img.shields.io/badge/typeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"><img src="https://img.shields.io/badge/firebase-FEC927?style=for-the-badge&logo=firebase&logoColor=white"><img src="https://img.shields.io/badge/Expo-4630EB?style=for-the-badge&logo=expo&logoColor=white">
-| 🎇: Bibliotecas | [Vanilla-Tilt](https://cdnjs.com/libraries/vanilla-tilt), [EXPO](https://expo.dev/), [Native-Base](https://nativebase.io/),
+| 🎇: Bibliotecas | [Vanilla-Tilt](https://cdnjs.com/libraries/vanilla-tilt), [EXPO](https://expo.dev/), [Native-Base](https://nativebase.io/), [ReactNavigation](https://reactnavigation.org/)
 | :rocket: URL         | [Projeto]()
 <!-- | :fire: Desafio     | [Conheça o Challenge Alura] -->
 <!-- | :laughing: Upgrades que fiz     | **Foi alterado todo o conceito da proposta, mantendo os desafios do Challange...fiz igual, mas diferente** -->
@@ -33,7 +33,7 @@ Benefícios desta formação:
 # 💪 Sobre o Professor
 
 <div align="center">
-<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/public/professor.png?raw=true" alt="professor">
+<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/assets/image/professor.png?raw=true" alt="professor">
 </div>
 
 | :placard: Professor|  [André Oliveira Cunha](https://andreoliveiracunha.com.br/)   |
@@ -62,11 +62,11 @@ Acesse esse projeto aqui [Projeto](https://www.figma.com/file/61CRNXlUmooMttGVa0
 
 
 <div align="center">
-<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/public/figma1.png?raw=true" alt="projeto no Figma">
+<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/assets/image/figma1.png?raw=true" alt="projeto no Figma">
 </div>
 
 <div align="center">
-<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/public/figma2.png?raw=true" alt="projeto no Figma">
+<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/assets/image/figma2.png?raw=true" alt="projeto no Figma">
 </div>
 
 # :one: Primeiro Passo | :construction:**Em progresso** <!-- :white_check_mark:**Feito**  -->
@@ -151,13 +151,13 @@ O ScrollView é um componente do React Native que permite rolar o conteúdo alé
 Para testar a necessidade do ScrollView foi multiplicado várias vezes o campo e-mail
 
 <div align="center">
-<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/public/figma4.png?raw=true" alt="projeto no Figma">
+<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/assets/image/figma4.png?raw=true" alt="projeto no Figma">
 </div>
 
 Ao Final da terceira aula, eu encontrei uma diferença entre a minha aplicação e a que estava sendo demostrada pelo professor, na minha o texto "Selecione o campo:" estava aparecendo em todas as janelas de cadastro e não apenas na janela de planos de saúde, como de fato deveria aparecer. O Código do professor estava como:
 
 <div align="center">
-<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/public/figma5.png?raw=true" alt="projeto no Figma">
+<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/assets/image/figma5.png?raw=true" alt="projeto no Figma">
 </div>
 
 
@@ -178,7 +178,7 @@ Ao Final da terceira aula, eu encontrei uma diferença entre a minha aplicação
 E eu alterei para que o Box só fosse renderizado quando houvesse informações pertinentes a ele no checkbox, como segue a demonstração: 
 
 <div align="center">
-<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/public/figma6.png?raw=true" alt="projeto no Figma">
+<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/assets/image/figma6.png?raw=true" alt="projeto no Figma">
 </div>
 
 ```
