@@ -154,7 +154,49 @@ Para testar a necessidade do ScrollView foi multiplicado várias vezes o campo e
 <img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/public/figma4.png?raw=true" alt="projeto no Figma">
 </div>
 
+Ao Final da terceira aula, eu encontrei uma diferença entre a minha aplicação e a que estava sendo demostrada pelo professor, na minha o texto "Selecione o campo:" estava aparecendo em todas as janelas de cadastro e não apenas na janela de planos de saúde, como de fato deveria aparecer. O Código do professor estava como:
 
+<div align="center">
+<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/public/figma5.png?raw=true" alt="projeto no Figma">
+</div>
+
+
+```
+<Box> 
+        <Text color="blue.800" fontWeight="bold" fontSize="md" mt={2} mb={2}>
+          Selecione o campo
+        </Text>
+        {
+          secoes[numSecao]?.checkbox?.map(checkbox => {
+            return <Checkbox key={checkbox.id} value={checkbox.value}>
+              {checkbox.value}
+            </Checkbox>
+          })
+        }
+      </Box>
+```
+E eu alterei para que o Box só fosse renderizado quando houvesse informações pertinentes a ele no checkbox, como segue a demonstração: 
+
+<div align="center">
+<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/public/figma6.png?raw=true" alt="projeto no Figma">
+</div>
+
+```
+ {secoes[numSecao]?.checkbox?.length > 0 && (
+    <Box>
+      <Text color="blue.800" fontWeight="bold" fontSize="md" mt={2} mb={2}>
+        Selecione o campo
+      </Text>
+      {secoes[numSecao]?.checkbox?.map((checkbox) => {
+        return (
+          <Checkbox key={checkbox.id} value={checkbox.value}>
+            {checkbox.value}
+          </Checkbox>
+        );
+      })}
+    </Box>
+  )}
+```
 
 # 🖼️ Sobre o Autor
 
