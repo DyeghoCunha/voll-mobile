@@ -198,6 +198,21 @@ E eu alterei para que o Box só fosse renderizado quando houvesse informações 
   )}
 ```
 
+No início da quarta aula, comecou a ser implementantado o sistema de navegação entre as paginas, o primeiro metodo selecionado foi o de Navegação Stack utilizando a biblioteca [React-Navigation](https://reactnavigation.org/docs/getting-started)
+
+<div align="center">
+<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/assets/image/figma7.png?raw=true" alt="projeto no Figma">
+</div>
+
+
+A navegação em pilha (Stack navigation) é um padrão comum de navegação utilizado em aplicativos móveis para gerenciar a transição entre diferentes telas ou páginas. No React Native, a navegação em pilha pode ser implementada usando bibliotecas populares como o React Navigation.
+
+A ideia principal da navegação em pilha é manter um histórico de telas empilhadas, onde cada tela adicionada à pilha fica no topo e é exibida ao usuário. Quando você navega para uma nova tela, ela é empilhada no topo da pilha, e você pode voltar à tela anterior removendo-a da pilha.
+
+
+
+
+
 # 🖼️ Sobre o Autor
 
 
