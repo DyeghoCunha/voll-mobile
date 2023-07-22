@@ -233,7 +233,7 @@ Também esta sendo utilizado o ButtonTab Navigation (também conhecido como Tab 
 
  # 🖼️ Banner do VitrineDev
 <div align="center">
-<img src="https://github.com/DyeghoCunha/what_the_fox/blob/master/public/banner%20(6).png?raw=true#vitrinedev" alt="imagem banner do Vitrine Dev">
+<img src="https://github.com/DyeghoCunha/voll-mobile/blob/master/assets/image/figma7.png?raw=true" alt="Banner para o VitriniDev">
 </div> 
 
  # 🖼️ Foto do Projeto
